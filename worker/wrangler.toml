@@ -1,1 +1,16 @@
-@
+name = "secret-messenger-worker"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# KV नेमस्पेस बाइंड करें
+[[kv_namespaces]]
+binding = "KV"
+id = "आपका_KV_नेमस्पेस_ID"   # Cloudflare डैशबोर्ड से लें
+
+# Durable Objects बाइंडिंग
+[[durable_objects]]
+bindings = [{ name = "CHAT_ROOM", class_name = "ChatRoom" }]
+
+# (वैकल्पिक) डिप्लॉयमेंट के लिए
+[env.production]
+workers_dev = true
