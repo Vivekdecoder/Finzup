@@ -1,1 +1,8 @@
-q
+{
+  "name": "secret-messenger-worker",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
