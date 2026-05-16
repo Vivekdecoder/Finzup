@@ -1,11 +1,11 @@
-name = "secret-messenger-worker"
+name = "secretmessenger-worker"
 main = "src/index.js"
 compatibility_date = "2025-01-01"
 
 # KV नेमस्पेस बाइंड करें
 [[kv_namespaces]]
 binding = "KV"
-id = "आपका_KV_नेमस्पेस_ID"   # Cloudflare डैशबोर्ड से लें
+id = "93db2f4666424251b96ea44459d73b5e"   # Cloudflare डैशबोर्ड से लें
 
 # Durable Objects बाइंडिंग
 [[durable_objects]]
