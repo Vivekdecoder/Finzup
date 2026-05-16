@@ -1,6 +1,6 @@
 // ---------- कॉन्फ़िगरेशन ----------
-const API_BASE = '/api'; // Worker URL (प्रॉडक्शन में पूरा URL)
-const WS_BASE = 'wss://your-worker-subdomain.workers.dev'; // अपना वर्कर डोमेन
+const API_BASE = 'https://secretmessenger-worker.alltype.workers.dev/api'; // Worker URL (प्रॉडक्शन में पूरा URL)
+const WS_BASE = 'wss://secretmessenger-worker.alltype.workers.dev/'; // अपना वर्कर डोमेन
 const CLOUDINARY_CLOUD_NAME = 'den3qwwjn'; // बदलें
 const CLOUDINARY_UPLOAD_PRESET = 'messenger_preset'; // बदलें
 
