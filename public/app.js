@@ -1,8 +1,8 @@
 // ---------- कॉन्फ़िगरेशन ----------
 const API_BASE = '/api'; // Worker URL (प्रॉडक्शन में पूरा URL)
 const WS_BASE = 'wss://your-worker-subdomain.workers.dev'; // अपना वर्कर डोमेन
-const CLOUDINARY_CLOUD_NAME = 'आपका_क्लाउड_नाम'; // बदलें
-const CLOUDINARY_UPLOAD_PRESET = 'आपका_अपलोड_प्रीसेट'; // बदलें
+const CLOUDINARY_CLOUD_NAME = 'den3qwwjn'; // बदलें
+const CLOUDINARY_UPLOAD_PRESET = 'messenger_preset'; // बदलें
 
 // ---------- स्टेट ----------
 let myKey = localStorage.getItem('accessKey');
